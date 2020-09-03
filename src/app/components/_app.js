@@ -1,16 +1,16 @@
 import { createElement as e } from "app/createElement"
-import { pagination } from "app/pagination"
 import { store } from "app/store"
 
 import { Table } from "app/components"
 import { Pagination } from "app/components"
-import { removeAllChild } from "helpers/removeAllChild"
-import { sortTable } from "app/sortTable"
-import { cropText } from "helpers/multiLineEllipsis"
-import { editRow } from "app/editRow"
-import { EditRowForm } from "app/components"
-import { showHideColumn } from "app/showHideColumn"
 import { ShowHide } from "app/components"
+import { EditRowForm } from "app/components"
+import { removeAllChild } from "helpers"
+import { cropText } from "helpers"
+import { sortTable } from "app/sortTable"
+import { editRow } from "app/editRow"
+import { showHideColumn } from "app/showHideColumn"
+import { pagination } from "app/pagination"
 
 export const App = {
 	render() {
