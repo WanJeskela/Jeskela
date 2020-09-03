@@ -3,7 +3,9 @@ import { checkBrowser } from "app/checkBrowser"
 import { store } from "app/store"
 import { App } from "app/components"
 
-
+/**
+ * @param options
+ */
 export const initApp = options => {
 	/**
 	 * 1. Проверка браузера
